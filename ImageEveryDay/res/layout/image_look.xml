@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CAE1FF" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </android.support.v4.view.ViewPager>
+
+    <!-- 用来显示图片作者，信息等数据的布局 -->
+
+    <LinearLayout
+        android:id="@+id/image_message"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/set_bg"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/image_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="   名称:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/image_auther"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="   摄影师:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/image_show"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="   介绍:"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- 用来显示用户相对图片的操作 -->
+
+    <LinearLayout
+        android:id="@+id/liner_set"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/set_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/set_to_wallpaper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="设置为壁纸"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/save_to_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="保存到手机"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/shel_to_qq"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="精品应用列表"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        
+        <TextView
+            android:id="@+id/shel_to_qq1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="分享到qq"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/close"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="退出"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

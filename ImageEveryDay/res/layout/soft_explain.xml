@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="
+        本软件的所有图片均来自于“POCO摄影社区”，
+        所有图片均是免费的，不用于商业目的，并且
+        所有图片已经标明作者和出处，如有作者认为
+        您的权益受到侵害，请联系我们的开发人员，
+        我们会及时删除您的图片作品
+        
+        POCO摄影网网址：http://www.poco.cn/"/>
+
+</LinearLayout>

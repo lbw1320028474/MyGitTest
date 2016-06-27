@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bie1" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/time"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/five" />
+    <TextView
+        android:id="@+id/welcome_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="图片长按可以保存到手机哦"
+        android:textColor="#858585"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/but_tiaoguo"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/welcome_tip"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/tiaoguo_bg"
+        android:gravity="center"
+        android:text="跳过"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
